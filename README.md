@@ -18,21 +18,13 @@ The model has been trained for 20 epoches on 6000 training samples of Flickr8k D
 
 ## Requirements
 - Python 3.6
-- sumy 
-- pdfplumber
-- fitz
 - tensorflow
-- pillow
 - matplotlib
-- h5py
 - keras
 - numpy
-- pydot
-- nltk
-- progressbar2
-- pytesseract
-- PyPDF2
-- io
+- pandas
+- sklearn
+- opencv-python
 
 These requirements can be easily installed by:
   `pip install -r requirements.txt`
