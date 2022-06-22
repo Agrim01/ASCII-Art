@@ -18,15 +18,17 @@ These requirements can be easily installed by:
 
 - __ascii_color_photo.py__: This is the script which converts an image into ascii characters. By default, the script converts images into colored ascii characters but with some small changes, it can be modified to output B&W ascii characters as well.
 - __ascii_video.py__: This script converts videos into colored ascii characters video.
-- __summarizer.py__: This script contains all the necessary functions to summarize the text obtained from the pdf.
+- __DejaVuSansMono.ttf__: True Type Font file
+- __input1, input2__: Input images
+- __output1, output2__: Output colored images with black background
+- __video.mp4__: Input video
 
 ## Usage
 
 ### From scratch
-After the requirements have been installed, the process from training to testing is fairly easy. The commands to run:
-1. Upload the pdf which is required to be summarised in the main directory.
-2. Update the path of the pdf in the main.py script.
-3. Update all the paths in the caption.py script from line 40 to 44 accordingly.
-4. Run the main.py script.
+After the requirements have been installed, follow the given commands to run:
+1. Change the input image or input video file path in the corresponding ascii conversion file.
+2. Specify the output file path in the corresponding ascii conversion file.
+3. Run the required script according to your need of asciifying images or asciifying videos.
 
-Hurrah!! You have got yourself some notes compiled from provided pdf along with captioned images! 
+Hurrah!! You have got yourself asciified image or video! 
