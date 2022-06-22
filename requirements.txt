@@ -6,3 +6,4 @@ numpy
 pandas
 sklearn
 opencv-python
+ffmpeg-python
