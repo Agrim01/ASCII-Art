@@ -10,7 +10,6 @@ The ASCII-Art project can convert B&W and RGB images to ascii characters along w
 - pandas
 - sklearn
 - opencv-python
-- ffmpeg-python
 
 These requirements can be easily installed by:
   `pip install -r requirements.txt`
