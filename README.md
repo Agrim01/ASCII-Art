@@ -22,6 +22,7 @@ These requirements can be easily installed by:
 - __input1, input2__: Input images
 - __output1, output2__: Output asciified colored images with black background
 - __video.mp4__: Input video
+- __output_video.mp4__: Output asciified colored video with black background. A more clear version of the same video can be accessed [here](https://drive.google.com/file/d/1_pD0nz7vhVAlu19a-0XI5yK9x7Bn8fr2/view?usp=sharing).
 
 ## Usage
 
