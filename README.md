@@ -26,7 +26,7 @@ These requirements can be easily installed by:
 ## Usage
 
 ### From scratch
-After the requirements have been installed, follow the given commands to run:
+After the requirements have been installed, do the following:
 1. Change the input image or input video file path in the corresponding ascii conversion file.
 2. Specify the output file path in the corresponding ascii conversion file.
 3. Run the required script according to your need of asciifying images or videos.
