@@ -20,7 +20,7 @@ These requirements can be easily installed by:
 - __ascii_video.py__: This script converts videos into colored ascii characters video.
 - __DejaVuSansMono.ttf__: True Type Font file
 - __input1, input2__: Input images
-- __output1, output2__: Output colored images with black background
+- __output1, output2__: Output asciified colored images with black background
 - __video.mp4__: Input video
 
 ## Usage
