@@ -39,5 +39,7 @@ The script takes video as input and divides it into multiples frames. These fram
 I really learned a lot of things through this project. They include opencv library, image processing, luminosity sorting in ascii characters, general image related concepts like resolution, etc, and many other things. Overall it was a really great learning experience!!
 
 ## References
+- https://www.topcoder.com/thrive/articles/python-for-image-recognition-opencv
 - https://www.geeksforgeeks.org/python-play-a-video-using-opencv/
+- https://learnopencv.com/read-write-and-display-a-video-using-opencv-cpp-python/
 - https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
