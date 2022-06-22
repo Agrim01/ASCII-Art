@@ -1,20 +1,5 @@
 # ASCII-Art
-Recruitment Project for 2nd year.
-
-System that generates summarised text for the text available in literary form of study materials like pdf, etc along with natural language captions for any image.
-
-## Dataset
-The image captioning model is trained on [Flickr8k Dataset](https://illinois.edu/fb/sec/1713398)
-
-## Model
-<div align="center">
-  <img src="model.png"><br><br>
-</div>
-
-## Performance
-The model has been trained for 20 epoches on 6000 training samples of Flickr8k Dataset.
-
-----------------------------------
+The ASCII-Art project can convert B&W and RGB images to ascii characters along with asciifying colored videos as well.
 
 ## Requirements
 - Python 3.6
@@ -29,11 +14,10 @@ The model has been trained for 20 epoches on 6000 training samples of Flickr8k D
 These requirements can be easily installed by:
   `pip install -r requirements.txt`
 
+## Scripts and Files
 
-## Scripts
-
-- __main.py__: This is the main file which combines all the other scripts to output the required info.
-- __caption.py__: This script contains the model for image captioning and returns image caption for a particular input image.
+- __ascii_color_photo.py__: This is the script which converts an image into ascii characters. By default, the script converts images into colored ascii characters but with some small changes, it can be modified to output B&W ascii characters as well.
+- __ascii_video.py__: This script converts videos into colored ascii characters video.
 - __summarizer.py__: This script contains all the necessary functions to summarize the text obtained from the pdf.
 
 ## Usage
