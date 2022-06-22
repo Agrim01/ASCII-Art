@@ -32,3 +32,14 @@ After the requirements have been installed, follow the given commands to run:
 3. Run the required script according to your need of asciifying images or asciifying videos.
 
 Hurrah!! You have got yourself asciified image or video! 
+
+## Internal Working
+The script takes video as input and divides it into multiples frames. These frames become the basis of image to ascii conversion. There are two list of characters, one is standard and other is complex, which contains characters in decreasing order of brightness per pixel. In this project, complex one is used. Based on the input and output image total pixels count, average color of a group of pixels in input image defines the color for pixel in output image. So, according to the luminosity and color required, the corresponding ascci character is choosen and placed in the output. This process occurs for all the frames in a video and combining all the output frames gives a final asciified output video.
+
+### Learning Takeaways
+I really learned a lot of things through this project. They include opencv library, image processing, luminosity sorting in ascii characters, general image related concepts like resolution, etc, and many other things.
+Overall it was a really great learning experience!!
+
+## References
+- https://www.geeksforgeeks.org/python-play-a-video-using-opencv/
+- https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
